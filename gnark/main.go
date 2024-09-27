@@ -107,7 +107,7 @@ func (circuitDef *MerkleCircuit) Define(api frontend.API) error {
 func main() {
 	// Step 1: Connect to the Ethereum RPC client via Infura.
 	// Todos: Use env var, do not expose the infura api key.
-	infuraURL := "https://sepolia.infura.io/v3/be0fc392100d41df98bedd9842227a3f"
+	infuraURL := "https://sepolia.infura.io/v3/YOUR_FREE_API_KEI_HERE"
 
 	// Step 2: Use the specified block hash.
 	blockHash := "0x8c635c3c1e9e5725438b155d1c1a2394997e07656545cf048a78817415b1c708"
